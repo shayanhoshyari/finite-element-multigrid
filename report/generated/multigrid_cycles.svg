@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="330" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 330" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="330"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-330)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="900" height="330" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="353.466" y="302" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,604) scale(1,-1)">Multigrid cycle shapes</text>
+			<text x="83.82399999999998" y="275" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,550) scale(1,-1)">V-cycle: one recursive coarse visit</text>
+			<path d="M 50,245 L 400,245 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 4, 5;"/>
+			<text x="50" y="253" style="font-family: Times-Roman; font-size: 10px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,506) scale(1,-1)">fine grid</text>
+			<path d="M 50,175 L 400,175 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 4, 5;"/>
+			<text x="50" y="183" style="font-family: Times-Roman; font-size: 10px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,366) scale(1,-1)">intermediate grid</text>
+			<path d="M 50,105 L 400,105 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 4, 5;"/>
+			<text x="50" y="113" style="font-family: Times-Roman; font-size: 10px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,226) scale(1,-1)">coarse grid</text>
+			<path d="M 110,245 L 180,175 Z" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="180 175, 178.4592 182.8502, 172.1498 176.5408" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<path d="M 180,175 L 250,105 Z" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="250 105, 248.4592 112.8502, 242.1498 106.5408" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<path d="M 250,105 L 320,175 Z" style="stroke: rgb(69%,9%,16%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="320 175, 312.1498 173.4592, 318.4592 167.1498" style="stroke: rgb(69%,9%,16%); stroke-linecap: butt; stroke-width: 1; fill: rgb(69%,9%,16%); fill-rule: evenodd;"/>
+			<path d="M 320,175 L 390,245 Z" style="stroke: rgb(69%,9%,16%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="390 245, 382.1498 243.4592, 388.4592 237.1498" style="stroke: rgb(69%,9%,16%); stroke-linecap: butt; stroke-width: 1; fill: rgb(69%,9%,16%); fill-rule: evenodd;"/>
+			<circle cx="110.0" cy="245" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="180.0" cy="175" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="250.0" cy="105" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="320.0" cy="175" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="390.0" cy="245" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="527.608" y="275" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,550) scale(1,-1)">W-cycle: two recursive coarse visits</text>
+			<path d="M 500,245 L 850,245 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 4, 5;"/>
+			<text x="500" y="253" style="font-family: Times-Roman; font-size: 10px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,506) scale(1,-1)">fine grid</text>
+			<path d="M 500,175 L 850,175 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 4, 5;"/>
+			<text x="500" y="183" style="font-family: Times-Roman; font-size: 10px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,366) scale(1,-1)">intermediate grid</text>
+			<path d="M 500,105 L 850,105 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 4, 5;"/>
+			<text x="500" y="113" style="font-family: Times-Roman; font-size: 10px;fill: rgb(33%,33%,33%); stroke:none;" transform="translate(0,226) scale(1,-1)">coarse grid</text>
+			<path d="M 560,245 L 606.666667,175 Z" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="606.6667 175, 606.6954 182.9999, 599.2711 178.0504" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<path d="M 606.666667,175 L 653.333333,105 Z" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="653.3333 105, 653.3621 112.9999, 645.9377 108.0504" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<path d="M 653.333333,105 L 700,175 Z" style="stroke: rgb(69%,9%,16%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="700 175, 692.6044 171.9496, 700.0287 167.0001" style="stroke: rgb(69%,9%,16%); stroke-linecap: butt; stroke-width: 1; fill: rgb(69%,9%,16%); fill-rule: evenodd;"/>
+			<path d="M 700,175 L 746.666667,105 Z" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="746.6667 105, 746.6954 112.9999, 739.2711 108.0504" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<path d="M 746.666667,105 L 793.333333,175 Z" style="stroke: rgb(69%,9%,16%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="793.3333 175, 785.9377 171.9496, 793.3621 167.0001" style="stroke: rgb(69%,9%,16%); stroke-linecap: butt; stroke-width: 1; fill: rgb(69%,9%,16%); fill-rule: evenodd;"/>
+			<path d="M 793.333333,175 L 840,245 Z" style="stroke: rgb(69%,9%,16%); stroke-linecap: butt; stroke-width: 3;"/>
+			<polygon points="840 245, 832.6044 241.9496, 840.0287 237.0001" style="stroke: rgb(69%,9%,16%); stroke-linecap: butt; stroke-width: 1; fill: rgb(69%,9%,16%); fill-rule: evenodd;"/>
+			<circle cx="560.0" cy="245" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="606.6666666666666" cy="175" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="653.3333333333334" cy="105" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="700.0" cy="175" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="746.6666666666666" cy="105" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="793.3333333333333" cy="175" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<circle cx="840.0" cy="245" r="5" style="stroke: rgb(20%,20%,20%); stroke-linecap: butt; stroke-width: 2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="90" y="52" style="font-family: Times-Roman; font-size: 12px;fill: rgb(12%,40%,67%); stroke:none;" transform="translate(0,104) scale(1,-1)">blue: restrict the residual</text>
+			<text x="300" y="52" style="font-family: Times-Roman; font-size: 12px;fill: rgb(69%,9%,16%); stroke:none;" transform="translate(0,104) scale(1,-1)">red: prolongate and correct</text>
+			<text x="517.5219999999999" y="52" style="font-family: Times-Roman; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,104) scale(1,-1)">smoothing is applied around coarse-grid correction</text>
+		</g>
+	</g>
+</svg>

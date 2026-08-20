@@ -1,0 +1,35 @@
+# POLY FILE
+# First line: <# of vertices> <dimension (must be 2)> <# of attributes> <# of boundary markers (0 or 1)>
+# Following lines: <vertex #> <x> <y> [attributes] [boundary marker]
+# One line: <# of segments> <# of boundary markers (0 or 1)>
+# Following lines: <segment #> <endpoint> <endpoint> [boundary marker]
+# One line: <# of holes>
+# Following lines: <hole #> <x> <y>
+# Optional line: <# of regional attributes and/or area constraints>
+# Optional following lines: <region #> <x> <y> <attribute> <maximum area>
+
+# ELE FILE
+ <# of triangles> <nodes per triangle> <# of attributes>
+Remaining lines: <triangle #> <node> <node> <node> ... [attributes]
+
+# -p read .poly
+# -q (for quality)
+# -a maximum area
+# -D conforming delaunay
+# -j remove extra vertices
+# -z zero index
+# -pqa_Djz
+
+4 2 0 0
+0 0 0
+1 1 0
+2 1 1
+3 0 1
+
+4 1
+0 0 1 101
+1 1 2 102
+2 2 3 103
+3 3 0 104
+
+0

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="900" height="500" preserveAspectRatio="xMinYMin meet" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="900" height="500"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-500)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="900" height="500" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="304.965" y="475" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,950) scale(1,-1)">Finite-element discretization error</text>
+			<path d="M 95,70 L 95,440 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 95,70 L 870,70 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1;"/>
+			<path d="M 154.924029,70 L 154.924029,440 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="144.09452908128293" y="50" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,100) scale(1,-1)">10^3</text>
+			<path d="M 369.060249,70 L 369.060249,440 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="358.23074947603493" y="50" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,100) scale(1,-1)">10^4</text>
+			<path d="M 583.19647,70 L 583.19647,440 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="572.3669698707869" y="50" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,100) scale(1,-1)">10^5</text>
+			<path d="M 797.33269,70 L 797.33269,440 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="786.5031902655388" y="50" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,100) scale(1,-1)">10^6</text>
+			<path d="M 95,117.306297 L 870,117.306297 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="59.678" y="114.30629747245037" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,228) scale(1,-1)">10^-6</text>
+			<path d="M 95,218.516156 L 870,218.516156 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="59.678" y="215.51615600167693" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,431) scale(1,-1)">10^-5</text>
+			<path d="M 95,319.726015 L 870,319.726015 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="59.678" y="316.72601453090346" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,633) scale(1,-1)">10^-4</text>
+			<path d="M 95,420.935873 L 870,420.935873 Z" style="stroke: rgb(89%,89%,89%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="59.678" y="417.93587306013" style="font-family: Times-Roman; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,835) scale(1,-1)">10^-3</text>
+			<text x="460.73" y="20" style="font-family: Times-Roman; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,40) scale(1,-1)">vertices</text>
+			<text x="95" y="450" style="font-family: Times-Roman; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,900) scale(1,-1)">nodal L2 error</text>
+			<path d="M 95 440 L 218.872553 377.064936 L 346.108663 317.052195 L 473.89681 256.704621 L 605.998396 194.630239 L 734.909966 134.034012 L 870 70 " style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 3; fill: none; fill-rule: evenodd;"/>
+			<circle cx="95.0" cy="440.0" r="3" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<circle cx="218.87255281795598" cy="377.0649362855286" r="3" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<circle cx="346.10866348000127" cy="317.0521954135746" r="3" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<circle cx="473.896810342891" cy="256.70462070084045" r="3" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<circle cx="605.9983961117589" cy="194.6302385001549" r="3" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<circle cx="734.9099660638632" cy="134.03401152061167" r="3" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<circle cx="870.0" cy="70.0" r="3" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,40%,67%); fill-rule: evenodd;"/>
+			<path d="M 103,428 L 131,428 Z" style="stroke: rgb(12%,40%,67%); stroke-linecap: butt; stroke-width: 3;"/>
+			<text x="138" y="424" style="font-family: Times-Roman; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,848) scale(1,-1)">measured L2 error</text>
+		</g>
+	</g>
+</svg>

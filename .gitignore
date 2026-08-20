@@ -1,0 +1,7 @@
+/build/
+/meshes/dirt
+__pycache__/
+*.pyc
+*.vtk
+*.log
+.DS_Store
