@@ -386,6 +386,15 @@ def main():
         "",
         "This repository implements and benchmarks geometric multigrid for a two-dimensional finite-element Poisson problem on non-nested triangular meshes.",
         "",
+        "## Contents",
+        "",
+        "- [1. Overview](#1-overview)",
+        "- [2. Problem and numerical method](#2-problem-and-numerical-method)",
+        "- [3. How multigrid works](#3-how-multigrid-works)",
+        "- [4. Mesh sequence](#4-mesh-sequence)",
+        "- [5. Results](#5-results)",
+        "- [6. Interpretation](#6-interpretation)",
+        "",
         "## 1. Overview",
         "",
         "The experiment compares V-cycle and W-cycle multigrid with single-grid Gauss–Seidel and Preconditioned Conjugate Gradient methods. It measures residual convergence, solve time, scaling with mesh size, and finite-element discretization error.",
@@ -584,7 +593,7 @@ def main():
         "",
         f"The regenerated level-8 nodal $L_2$ error is ${scientific_latex(finest_rows['mg-v']['l2'])}$. The archived 2018 value is $3.409150602 \\times 10^{{-7}}$, a difference of about 0.013%. The error decreases by a factor of about four each time the characteristic mesh spacing is halved. This is consistent with the expected $O(h^2)$ convergence of linear finite elements in the nodal error measure used here.",
         "",
-        "Development and reproduction instructions are in [`DEVELOPMENT.md`](DEVELOPMENT.md). Raw results and per-iteration residuals are retained in `report/generated/results.csv` and `report/generated/history.csv`.",
+        "Development and reproduction instructions are in [`DEVELOPMENT.md`](DEVELOPMENT.md), and the important `src/` interfaces are summarized in [`API.md`](API.md). Raw results and per-iteration residuals are retained in `report/generated/results.csv` and `report/generated/history.csv`.",
     ]
     (HERE.parent / "README.md").write_text("\n".join(markdown) + "\n")
 
